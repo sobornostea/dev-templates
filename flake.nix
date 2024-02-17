@@ -206,6 +206,16 @@
           description = "Zig development environment";
         };
 
+        crypto = {
+          path = ./crypto;
+          description = "Cryptography development environment";
+        };
+
+        empty = {
+          path = ./empty;
+          description = "Empty development environment";
+        };
+
         # Aliases
         rt = rust-toolchain;
       };
